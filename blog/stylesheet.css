@@ -17,16 +17,17 @@ h1 {
 h2 {
   text-transform: uppercase;
   text-align: center;
-
 }
 
-h3 {
+h4 {
   font-size: large;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 p {
   margin-top: -10px;
+  text-align: left;
 }
 
 #faceimage {
@@ -51,22 +52,17 @@ p {
   margin-right: auto;
 }
 
-#scaledown {
-  width:30px;
-  height: auto;
-}
-
-#contactlist {
-  list-style: none;
-  display: inline;
+#contacticonsdiv {
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contactlist > li {
   display: inline;
 }
 
-#contacticonsdiv {
-  width: 23%;
-  margin-left: auto;
-  margin-right: auto;
+#scaledown {
+  width:30px;
+  height: auto;
 }
