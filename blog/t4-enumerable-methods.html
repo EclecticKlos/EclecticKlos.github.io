@@ -24,14 +24,22 @@
     </div>
 
     <h2>Ha-rrays! and ashes</h2>
-    <h4>Potential brief summary of the article?</h4>
-    <p>So, you want to know about arrays and hashes, eh? For an array, imagine you need to make a step-by-step check list for someone to check their email who had never checked their email before. First, start computer. Second, login as computer user. Third, open web browser.  Etc etc. Arrays are essentially lists, where each item on the list is assigned a numbered slot. This is great when you have data that is unconnected to any single other piece of data. But what if the information is paired, for instance with a list of screen names to users?
+    <p>Mapped Arrays and Hashes
+      The .map method is pretty nifty. Let's say you have an array of names:<br>
+      names = ["john", "bill", "horace", "archbald"]<br>
+      And you want to print each of these names with capital letters. Instead of writing some sort of loop, you can invoke the .map method on names and it will capitalize each element within the array. The code would look like this:<br>
+      p names.map!{|n| n.capitalize}<br>
+      output:<br>
+      John<br>
+      Bill<br>
+      Horace<br>
+      Archbald<br>
+      So how did the code work?  First, the names array is called, which contains lower-case names. The .map method is invoked, and with an !. What this does is the .map will run the code in the block on each element within whatever .map is being called on, in this case names[]. The ! means that it will run this code destructively, meaning it will alter the object it's being called on (names[]) itself, so after .map! in this case runs the code block capitalizing each value of the names[] array, the names[] array will be altered itself, which is to say that names = ["John", "Bill", "Horace", "Archbald"] after this .map! array is called. For clarification: had .map been called (without the !) in this example, it would have resulted in the same output. However, if we wanted to use names[] elsewhere in the program and have it be capitalized, we would have to capitalize it once again, for without the ! the array itself remains untouched beyond that single invokation of .map.
     <br>
-    <br>
-    A hash table would be perfect for this job. Hashes are basically an array, but instead of each element being paired with a number, it is paired with another piece of data, together they are known as a key-value pair. So for example, if GitHub were to store my screen name in a hash, in the key-value pair "Dan Klos" would be the key, and EclecticKlos would be the value. </p>
+    </p>
     <br>
 
-    <h2>DBC Think Style</h2>
+<!--     <h2>DBC Think Style</h2>
     <h4>Potential brief summary of the article?</h4>
     <p>Learning styles for me are really about focus. Right now, I am extremely distracted from writing a quality post. I could undoubtedly benefit from reflecting deeply on this post, and instead I have to gloss over it. The action plan I am going to put into place has two layers: immediate and long-term.
       <br>
@@ -39,3 +47,4 @@
     Immediately, I am going to go to my family's cottage to remove myself from the distractions of friends and family that are currently pulling me away from my studies. Once I return, I'm going to set times in my calendar during which I am 100% unavailable to the outside world, perhaps even shutting off my phone. This is something I will benefit greatly from. After I am at the cottage, I will update this post to reflect more upon my thinking/learning style.</p>
 
   </body>
+ --><br>
