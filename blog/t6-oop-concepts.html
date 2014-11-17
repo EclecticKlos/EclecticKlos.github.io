@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <header>
+    <h1>Fetching Knowledge</h1>
+  </header>
+
+  <body>
+
+    <h2>Keeping it in Scope</h2>
+    <p>
+      Scope in Ruby (and I assume most OOP) is something that is good to have a firm grasp upon and can take some time to do so--I still am. Scope in this case refers to the types of variables that are supported by Ruby and where they can be accessed. Ruby is built entirely around objects. When this is taken into consideration along with two key coding best practices of not repeating one's self and to keep code to have a specific purpose, it makes sense to make different types or classifications of variables that each have differing levels of accessability. If you think of it as sort of a corporate structure,there are a large number, potentially many thousands of low-level variables that are more boxed in to highly specific roles within the code.
+      <br>
+      insert example here!
+      <br>
+      Much like the lower level employees who execute highly specific tasks, local variables are accessible only within a specific method and contain code or data that can only be accessed from within the method in which it was defined. Instance variables can be thought of as a local variable's more experienced co-worker who has greater access. Instance variables can be accessed anywhere within a class, such that all methods within a class have access to an instance variable. Using setter/getter methods, these instance variables can even be accessed arcross classes when given specific permission.
+      <br>
+      <br>
+      Constants are the next step up the corporate coding ladder. Constants, as their name implies, are intended to be, well, constant, which is to say unchanging. Generally, constants are used to represent data which will either always be used in the same way or is actually constant data itself. I haven't had much experience with these yet, unfortunately,so tightening up the analogy to my corporate one here is a bit difficult for me.  However, at the top of the variable ladder we have the global variable, which is sort of the CEO of the code as far as variables are concerned.  The global variables can be accessed anywhere in the code. However, much like how it is not good practice to have more than one CEO, it is generally a good idea to avoid using global variables where possible. If you had your variables universally accessible, it would be far easier to mistakenly alter a global variable that is used in several areas of the code, and much more difficult to troubleshoot due to their prolific nature.
+    </p>
+
+  </body>
