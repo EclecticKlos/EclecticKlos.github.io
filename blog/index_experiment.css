@@ -1,0 +1,98 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+/*  background-color: white;
+  width: 100%;
+  z-index: -1;*/
+}
+
+body {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../imgs/grey_wash.png");
+
+  background-color: white;
+  width: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-size: large;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  margin-top: -10px;
+  text-align: left;
+}
+
+/*#faceimage {
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#image_text {
+  position: absolute;
+  top: 12%;
+  left: 58%;
+  width: 120px;
+  z-index: +1;
+}
+
+#fetching {
+  position: relative;
+  width: 1151px;
+  overflow: hidden;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+
+#navbar > li {
+  display: inline;
+}
+
+#navbardiv {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contacticonsdiv {
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contactlist > li {
+  display: inline;
+}
+
+#scaledown {
+  width:30px;
+  height: auto;
+}
