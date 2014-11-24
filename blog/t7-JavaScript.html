@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <header>
+    <h1>Fetching Knowledge</h1>
+  </header>
+
+  <body>
+
+    <h2>The difference between Ruby classes and JavaScript constructors</h2>
+    <p>We live in a programming era of OOP (Object Oriented Programming), wherein the object is the thing. Over the past few weeks, we've been learning about Ruby Classes. Wait, what era are we living in? Oh that's right, the OOP era (not to be confused with the "oops!" era.) So guess what a Class is? You guessed it, an object. A class inherits it's attributes from Object, so when you create an object within a class, you are creating an object of type class (object) which is in turn is inheriting from Object.<br>
+    <br>
+    In Ruby, every object created within a class (object) is said to be incapsulated within that class, basically meaning that other parts of the program cannot access that part of the program (with an exception that I'll get to in a minute). Within a class, there are two primary types of variables that are used: instances variables, which are denoted with an @ symbol before them, and local variables, which are just variable names. Local variables can be accessed anywhere within the class, whereas local variables can only be accessed within a particular method of that class.<br>
+    <br>
+    The purpose for this sort of "cascading" heirarchy of incapsulation is to protect the program from creating difficult-to-track problems created elsewhere in the program. Imagine if a completely unrelated portion of the program happened to have a variable declared of the same name as another portion of the program. First, that creates instability and insecurity, but imagine how much more difficult that would be to maintain?  Well, that's when you can say hello to JavaScript :-)
+
+JavaScript objects are more or less stand-alone objects with JavaScript, unlike Ruby. I understand there to by "prototype" attributes which can bring in similar operations as methods in Ruby, however we haven't really used them yet so I cannot comment on the topic. JS contructors, however, are fairly similar to Ruby classes. While in JavaScript objects created using the literal method are basically objects floating in the program space, objects created with Constructors are more related in that they are all created with the same attributes as others using the constructor. However, unlike Ruby objects created within a class, they are not encapsulated, and thus still accessible anywhere else in the program. While this does introduce the negative aspects mentioned above, it also does introduce a flexibility that can be enjoyed at times. Ruby has introduced this in a more structured manner with attribute accessor methods, which will have to be covered in a different post.
+    </p>
+
+  </body>
