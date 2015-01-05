@@ -1,0 +1,30 @@
+code {
+  font-family:monospace;
+}
+
+pre {
+  display:block;
+  font-family:monospace;
+  white-space:pre;
+  color:red;
+  margin:1em 0;
+  background-color:black;
+  padding-left:15px;
+  padding-bottom:10px;
+}
+
+p {
+  font-family:"questrial";
+}
+
+h1 {
+  font-family:"Londrina Outline"
+}
+
+.orange {
+  color:orange;
+}
+
+.white {
+  color:white;
+}

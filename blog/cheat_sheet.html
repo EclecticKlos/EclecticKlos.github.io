@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Londrina Outline" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="cheat_sheet.css">
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <h1>Ruby Array Cheat Sheet</h1>
+<h2>Push</h2>
+  <p>Append — Pushes the given object(s) on to the end of this array. This expression returns the array itself, so several appends may be chained together. See also #pop for the opposite effect.</p>
+<pre><code>
+<span class="orange">a</span> <span class="white">= [ "a", "b", "c" ]</span>
+a.push("d", "e", "f")
+        #=> ["a", "b", "c", "d", "e", "f"]
+[1, 2, 3,].push(4).push(5)
+        #=> [1, 2, 3, 4, 5]
+</code></pre>
+
+<h2>Pop</h2>
+  <p>Removes the last element from self and returns it, or nil if the array is empty.
+
+If a number n is given, returns an array of the last n elements (or less) just like array.slice!(-n, n) does. See also #push for the opposite effect.</p>
+<pre><code>
+a = [ "a", "b", "c", "d" ]
+a.pop     #=> "d"
+a.pop(2)  #=> ["b", "c"]
+a         #=> ["a"]
+</code></pre>
+
+</body>
+</html>
